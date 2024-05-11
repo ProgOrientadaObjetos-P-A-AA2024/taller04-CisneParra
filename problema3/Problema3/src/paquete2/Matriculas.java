@@ -48,7 +48,7 @@ public class Matriculas {
 
     public void establecervalorMatricula() {
         double calculo = valorAuto * 0.00002;
-        valorAuto = (calculo * year);
+        valorMatricula = (calculo * year);
     }
 
     public String obtenerCedula() {
